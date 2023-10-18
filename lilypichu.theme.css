@@ -3,6 +3,142 @@
 * @author Nyria#3863
 * @description A theme based on @Melonturtle_ stream design
 * @invite rtBQX5D3bD
+* @version 1.3.0
+*/
+@import url("https://raw.githubusercontent.com/MakkuMikan/LilyPichu/main/main.css");
+
+@import url("https://raw.githubusercontent.com/MakkuMikan/LilyPichu/main/stuff/overlay.css");
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF *//*
+--jumping-gif: url('https://i.imgur.com/dCd49s0.gif');*//*
+
+https://64.media.tumblr.com/d075ca825cf30493755ec65f4a0603c2/b87328588abe9407-45/s250x250_c1/0cbe47ece7ded9a8e840602efd5e64a0cf5b05ac.gifv
+https://cutewallpaper.org/25/anime-girl-dancing-gif-wallpaper/anime-girl-gif-search-and-download-gifs-on-gifburg.gif
+https://www.anime-planet.com/images/users/avatars/140448.gif?t=1619621460
+*/--jumping-gif: url('http://31.media.tumblr.com/35b66d3e17d480c88ff7e8f12a8e4f0a/tumblr_mrgxouJZQB1sfs2qco1_1280.gif');
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => /**/
+
+--background-tertiary-alt: #857fc3;/*rgb(139, 82, 172); /*
+
+--background-tertiary-alt: url("https://pbs.twimg.com/media/E-OMc-VVEAA_Fgk?format=jpg&name=large"); /**/
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #e6e1f8;
+    --header-primary: #e6e1f8;
+    --interactive-normal: #c4b1fa;
+    --channels-default: #e5e1f8;
+
+    --text-muted: #c6c1e2;
+    --interactive-muted: #928cad;
+
+    --header-secondary: #cac1e2;
+    --interactive-hover: #ccc1e2;
+    --interactive-active: #cbc1e2;
+
+    /* Background color */
+    --background-primary: #42365e;
+    --background-secondary: #322949;
+    --background-secondary-alt: #2e204d;
+    --background-tertiary: #130f22;
+    --background-floating: #151122;
+    --background-accent: #7b53c5;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(56, 31, 31, 0.32);
+    --background-modifier-active: rgba(19, 12, 12, 0.32);
+    --background-modifier-selected: rgba(31, 21, 21, 0.32);
+    --toast-background: #47365e !important;
+    --toast-header: #251d3b !important;
+    --toast-contents: #2f2949 !important;
+    --toast-border: #2c2949 !important;
+    --input-background: var(--background-secondary);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #c5536c;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #c5536c !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #c5536c; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #a86373;
+    --header-primary: #a86373;
+    --interactive-normal: #a86373;
+    --channels-default: #a86373;
+
+    --text-muted: #a86373;
+    --interactive-muted: #cf92a0;
+
+    --header-secondary: #cf92a0;
+    --interactive-hover: #be7d8c;
+    --interactive-active: #b36f7f;
+
+    /* Background color */
+    --background-primary: #FFFFFF;
+    --background-secondary: #ffeeee;
+    --background-secondary-alt: #fdc7c7;
+    --background-tertiary: #ffbbbb;
+    --background-floating: #ffbbbb;
+    --background-accent: #c5536c;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(56, 31, 31, 0.062);
+    --background-modifier-active: rgba(19, 12, 12, 0.123);
+    --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+    .colorBrand-ROmMP1 { color: #c5536c;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #c5536c !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #c5536c; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+/**
+* @name LilyPichu
+* @author Nyria#3863
+* @description A theme based on @Melonturtle_ stream design
+* @invite rtBQX5D3bD
 * @version 1.4
 * @donate https://ko-fi.com/nyria
 */
@@ -61,96 +197,3 @@
   /* Scrollbar */
   --scrollbar-auto-thumb: var(--background-tertiary);
   --scrollbar-auto-track: var(--background-secondary-alt);
-  --scrollbar-thin-thumb: var(--background-tertiary);
-  --scrollbar-thin-track: transparent;
-
-  /* Other */
-  --channel-text-area-placeholder: var(--interactive-normal);
-  --deprecated-quickswitcher-input-background: var(--background-primary);
-}
-.colorBrand-3cPPsm {
-  color: #c5536c;
-}
-.colorDefault-CDqZdO.focused-3qFvc8,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-  background-color: var(--background-modifier-hover) !important;
-}
-
-/* Buttons */
-.lookFilled-1H2Jvj {
-  background-color: #c5536c !important;
-}
-.lookFilled-1H2Jvj:active,
-.lookFilled-1H2Jvj:hover {
-  background-color: #b64a61 !important;
-}
-.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
-}
-
-/* Hover background */
-.colorDefault-CDqZdO.focused-3qFvc8,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-  color: var(--interactive-normal);
-}
-
-.theme-light {
-  /* Text */
-  --text-normal: #a86373;
-  --header-primary: #a86373;
-  --interactive-normal: #a86373;
-  --channels-default: #a86373;
-
-  --text-muted: #a86373;
-  --interactive-muted: #cf92a0;
-
-  --header-secondary: #cf92a0;
-  --interactive-hover: #be7d8c;
-  --interactive-active: #b36f7f;
-
-  /* Background color */
-  --background-primary: #ffffff;
-  --background-secondary: #ffeeee;
-  --background-secondary-alt: #fdc7c7;
-  --background-tertiary: #ffbbbb;
-  --background-floating: #ffbbbb;
-  --background-accent: #c5536c;
-  --channeltextarea-background: var(--background-secondary);
-  --background-modifier-hover: rgba(56, 31, 31, 0.062);
-  --background-modifier-active: rgba(19, 12, 12, 0.123);
-  --background-modifier-selected: rgba(31, 21, 21, 0.11);
-
-  /* Scrollbar */
-  --scrollbar-auto-thumb: var(--background-tertiary);
-  --scrollbar-auto-track: var(--background-secondary-alt);
-  --scrollbar-thin-thumb: var(--background-tertiary);
-  --scrollbar-thin-track: transparent;
-
-  /* Other */
-  --deprecated-quickswitcher-input-background: var(--background-primary);
-}
-
-.colorDefault-CDqZdO.focused-3qFvc8,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-  background-color: var(--background-modifier-hover) !important;
-}
-
-/* Buttons */
-.lookFilled-1H2Jvj {
-  background-color: #c5536c !important;
-}
-.lookFilled-1H2Jvj:active,
-.lookFilled-1H2Jvj:hover {
-  background-color: #b64a61 !important;
-}
-.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
-}
-
-/* Hover background */
-.colorDefault-CDqZdO.focused-3qFvc8,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-  color: var(--interactive-normal);
-}
