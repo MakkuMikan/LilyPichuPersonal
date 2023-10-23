@@ -20,6 +20,7 @@ jobs:
           source: lilypichu.scss
           destination: main.css
           outputStyle: expanded
+          indentWidth: 4
 
       - name: Add and Commit changes to main branch
         run: |
