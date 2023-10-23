@@ -1,16 +1,16 @@
 :root {
   // -- Member list --
-  .container-2o3qEW {
+  :is(.container-2o3qEW, .container-2vWgD2) {
     background: none;
   }
 
   @media (max-width: 1350px) {
-    .members-3WRCEx {
+    :is(.members-3WRCEx, .members-2y1nVj) {
       border-radius: var(--border-radius) 0 0;
     }
   }
 
-  .container-2o3qEW {
+  :is(.container-2o3qEW, .container-2vWgD2) {
     // Header
     &::before {
       content: "Member list";
