@@ -19,6 +19,7 @@ jobs:
         with:
           source: lilypichu.scss
           destination: main.css
+          outputStyle: expanded
 
       - name: Add and Commit changes to main branch
         run: |
