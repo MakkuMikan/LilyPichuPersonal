@@ -57,6 +57,7 @@ https://www.anime-planet.com/images/users/avatars/140448.gif?t=1619621460
     --background-floating: #151122;
     --background-accent: #7b53c5;
     --channeltextarea-background: var(--background-secondary);
+    --modal-background: #42365e;
     --background-modifier-hover: rgba(56, 31, 31, 0.32);
     --background-modifier-active: rgba(19, 12, 12, 0.32);
     --background-modifier-selected: rgba(31, 21, 21, 0.32);

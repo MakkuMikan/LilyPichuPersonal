@@ -6,7 +6,9 @@
 @forward "stuff/settings";
 @forward "stuff/friends";
 @forward "stuff/other";
+@forward "stuff/overlay";
 
+@import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
 
 // Right popout
@@ -60,6 +62,10 @@
     margin-right: 450px;
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
   }
+  
+  .layers_a23c37 > :nth-child(2) {
+    margin-right: 450px;
+  }
 
   // User area
   .panels__58331 > .container_ca50b9 {
@@ -81,11 +87,7 @@
     overflow: visible;
   }
 
-  .layers__1c917 > :nth-child(2) {
-    margin-right: 450px;
-  }
-
-  .container_b2ce9c .members__9f47b {
+  .membersWrap__90226 .members__9f47b {
     width: 100%;
     background-color: var(--background-primary);
 
