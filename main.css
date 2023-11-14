@@ -1,9 +1,8 @@
-@import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
 :root .container-3wLKDe {
     background: var(--background-primary);
 }
-:root .container-3wLKDe .mainCard-3KBsBI {
+:root .container-3wLKDe .mainCard__8a660 {
     background-color: var(--background-secondary);
 }
 :root .threadSidebar-1o3BTy {
@@ -168,7 +167,7 @@
 :root .wrapper_fbbb73 {
     border-radius: var(--border-radius);
 }
-:root .reaction-2A2y9y {
+:root .reaction_b90ab0 {
     border-radius: var(--border-radius);
 }
 :root .wrapper_c727b6 {
@@ -805,19 +804,19 @@
     margin-top: 20px;
     background-color: var(--background-tertiary);
 }
-:root .layers_a40797 {
+:root .layers__1c917 {
     margin: 20px 0 40px 0;
     z-index: 1;
 }
-:root .layers_a40797 > .layer_e552e0:first-child {
+:root .layers__1c917 > .layer__2efaa :first-child {
     opacity: 1 !important;
     transform: scale(1) !important;
 }
-:root .layers_a40797 > .layer_e552e0.stop-animations:first-child {
+:root .layers__1c917 > .layer__2efaa .stop-animations:first-child {
     z-index: 1;
     transform: scale(1) !important;
 }
-:root .layers_a40797 > :nth-child(2) {
+:root .layers__1c917 > :nth-child(2) {
     height: 100%;
     left: 72px;
     z-index: 2;
@@ -1173,7 +1172,7 @@
     margin: 0 450px -20px 0px;
     border-radius: 0 8px 0 0 !important;
 }
-:root .notice__5fd4c[id] + .layers_a40797 .guilds__2b93a + :nth-child(2) {
+:root .notice__5fd4c[id] + .layers__1c917 .guilds__2b93a + :nth-child(2) {
     border-radius: 0;
 }
 :root .notice__5fd4c:not([id]) {
@@ -1440,7 +1439,7 @@
 :root textarea {
     font-family: "Nunito" !important;
 }
-:root .bg__7adbf {
+:root .bg__12180 {
     background: var(--background-tertiary-alt);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1727,7 +1726,7 @@
     .container__037ed {
         overflow: visible;
     }
-    .layers_a40797 > :nth-child(2) {
+    .layers__1c917 > :nth-child(2) {
         margin-right: 450px;
     }
     .container_b2ce9c .members__9f47b {
