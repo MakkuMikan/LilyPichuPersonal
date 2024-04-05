@@ -1,16 +1,16 @@
 :root {
   // -- Member list --
-  .container_b2ce9c {
+  .container_f79ab4 {
     background: none;
   }
 
   @media (max-width: 1350px) {
-    .members__9f47b {
+    .members__573eb {
       border-radius: var(--border-radius) 0 0;
     }
   }
 
-  .membersWrap__90226 {
+  .membersWrap__5ca6b {
     // Header
     &::before {
       content: "Member list";
@@ -55,11 +55,11 @@
   }
 
   // -- User popout --
-  .userPopoutOuter_d739b2 {
+  .userPopoutOuter__3884e {
     max-height: unset !important;
   }
 
-  .userPopoutInner_f545a3 {
+  .userPopoutInner_e90432 {
     position: relative;
     max-height: unset !important;
     overflow: hidden;
@@ -72,7 +72,7 @@
     }
 
     // Banner
-    .bannerSVGWrapper__3e7b0 {
+    .bannerSVGWrapper__8a38c {
       position: absolute;
       -webkit-mask-image: linear-gradient(to bottom, #000000, #00000000);
       mask-image: linear-gradient(to bottom, #000000, #00000000);
@@ -112,7 +112,7 @@
     }
 
     // Badges
-    .profileBadges__7a7cb {
+    .profileBadges__1f2ab {
       position: absolute;
       top: 65px;
       left: 110px;
@@ -120,7 +120,7 @@
     }
 
     // Avatar
-    .avatarWrapperNormal__0bddb {
+    .avatarWrapperNormal__36eec {
       position: relative;
       width: 80px;
       top: 16px;
@@ -131,7 +131,7 @@
         border-radius: var(--border-radius);
       }
 
-      .avatarHint__8e5b9 {
+      .avatarHint__15059 {
         border-radius: var(--border-radius);
       }
 
@@ -140,14 +140,14 @@
       }
     }
 
-    .userPopoutOverlayBackground_d8afa4 {
+    .userPopoutOverlayBackground_bf6444 {
       overflow: visible;
       background-color: #00000011;
       backdrop-filter: blur(20px);
 
-      .usernameSection__53868 {
-        & > .copiableNameTag__6b220 > .clickTarget__440f0,
-        & > div > .userText__3e8b7 {
+      .usernameSection_dd6196 {
+        & > .copiableNameTag_e76019 > .clickTarget__440f0,
+        & > div > .userText_c26b46 {
           position: absolute;
           top: -87px;
           left: 100px;
@@ -164,38 +164,38 @@
             white-space: unset;
           }
 
-          .discrimBase_e0c4c5 {
+          .discrimBase__5555e {
             color: white;
           }
         }
 
-        .pronouns__8bcdb {
+        .pronouns__8aa38 {
           padding-top: 12px;
         }
       }
 
-      .section__6f61e {
+      .section__62b44 {
         padding-top: 0;
         padding-bottom: 12px;
       }
 
-      .divider__2bbbc {
+      .divider_d6f39c {
         display: none;
       }
     }
   }
 
   // -- User modal --
-  .root_ba16f0.root_a28985.small__05f7b {
+  .root_ba16f0.root_a28985.small_f8e677 {
     border-radius: var(--border-radius);
 
     // Banner part
-    .topSection_dfb73b {
+    .topSection__2d8b8 {
       position: relative;
       margin-bottom: 30px;
 
       // Banner
-      .bannerSVGWrapper__3e7b0 {
+      .bannerSVGWrapper__8a38c {
         position: absolute;
         -webkit-mask-image: linear-gradient(to bottom, #000000, #00000000);
         mask-image: linear-gradient(to bottom, #000000, #00000000);
@@ -227,12 +227,12 @@
           }
         }
 
-        .pencilContainer_d4ce8d {
+        .pencilContainer_ae6d25 {
           display: none;
         }
       }
 
-      .header__7da4f {
+      .header_dda341 {
         .avatar__445f3 {
           position: relative;
           top: 22px;
@@ -248,13 +248,13 @@
         }
 
         // Badges
-        .headerTop__6628b {
+        .headerTop_e82f16 {
           position: absolute;
           top: 70px;
           row-gap: 10px;
           flex-direction: column;
 
-          .badgeList_c193e3 {
+          .badgeList__126b0 {
             background-color: transparent;
           }
         }
@@ -262,14 +262,14 @@
     }
 
     // User info part
-    .userProfileModalOverlayBackground__52d65 {
+    .userProfileModalOverlayBackground__7ec35 {
       z-index: 1;
       overflow: visible;
       background-color: #00000011;
       backdrop-filter: blur(20px);
 
       // Username
-      .container_b6b15b > div:first-child {
+      .container__9f51c > div:first-child {
         position: absolute;
         top: -145px;
         left: 150px;
@@ -278,7 +278,7 @@
     }
 
     // Mutual bar
-    .tabBarContainer__63f55 {
+    .tabBarContainer_b283be {
       padding: 0;
       border-bottom: none;
 
@@ -292,35 +292,35 @@
       position: relative;
       z-index: 1;
     }
-    .activityProfileV2__4de28 {
+    .activityProfileV2_f5335f {
       background-color: var(--background-primary);
       margin: 10px;
       border-radius: var(--border-radius);
     }
 
     // Body
-    .body_ea740e {
+    .body_bd4552 {
       // Connections
-      .userInfoSection__1daf8.connectedAccounts_dc0a56 {
+      .userInfoSection_e816c1.connectedAccounts__7a8e6 {
         border-top: none;
 
-        .connectedAccountContainer__23f00 {
+        .connectedAccountContainer__5972d {
           position: relative;
           border: none;
 
-          .connectedAccount__28fb0 {
+          .connectedAccount__75282 {
             flex-direction: column;
           }
 
           // Icon
-          .connectedAccountIcon__6bc30 {
+          .connectedAccountIcon_e85011 {
             position: relative;
             margin-bottom: 10px;
             width: 45px;
             height: 45px;
             z-index: 2;
 
-            & + .connectedAccountNameContainer__48b99::before {
+            & + .connectedAccountNameContainer__59a05::before {
               content: "";
               position: absolute;
               top: 0;
@@ -333,12 +333,12 @@
           }
 
           // Username
-          .connectedAccountNameContainer__48b99 {
+          .connectedAccountNameContainer__59a05 {
             width: 100%;
             justify-content: center;
             overflow: visible;
 
-            .connectedAccountNameTextContainer__0b003 {
+            .connectedAccountNameTextContainer_e6ac0d {
               justify-content: center;
               margin: 0;
             }
@@ -366,76 +366,76 @@
             }
           }
 
-          .connectedAccountIcon__6bc30[aria-label="Battle.net"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Battle.net"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #1da0f248;
           }
-          .connectedAccountIcon__6bc30[aria-label="Twitch"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Twitch"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #601bd852;
           }
-          .connectedAccountIcon__6bc30[aria-label="YouTube"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="YouTube"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #d9252b49;
           }
-          .connectedAccountIcon__6bc30[aria-label="Twitter"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Twitter"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #0098e43f;
           }
-          .connectedAccountIcon__6bc30[aria-label="Steam"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Steam"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #00000034;
           }
-          .connectedAccountIcon__6bc30[aria-label="Reddit"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Reddit"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #fe44013d;
           }
-          .connectedAccountIcon__6bc30[aria-label="Facebook"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Facebook"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #2e328485;
           }
-          .connectedAccountIcon__6bc30[aria-label="Spotify"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Spotify"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #1ed75f34;
           }
-          .connectedAccountIcon__6bc30[aria-label="Xbox"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Xbox"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #5dc21e36;
           }
-          .connectedAccountIcon__6bc30[aria-label="League of Legends"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="League of Legends"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #cea14638;
           }
-          .connectedAccountIcon__6bc30[aria-label="GitHub"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="GitHub"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #24292e62;
           }
-          .connectedAccountIcon__6bc30[aria-label="Skype"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Skype"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #0076d74b;
           }
-          .connectedAccountIcon__6bc30[aria-label="Epic Games"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Epic Games"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #2f2f2f59;
           }
-          .connectedAccountIcon__6bc30[aria-label="Riot Games"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="Riot Games"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #eb1c2d38;
           }
-          .connectedAccountIcon__6bc30[aria-label="PayPal"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="PayPal"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #009fe33b;
           }
-          .connectedAccountIcon__6bc30[aria-label="TikTok"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="TikTok"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #64bfc546;
           }
-          .connectedAccountIcon__6bc30[aria-label="eBay"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="eBay"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #c500003b;
           }
-          .connectedAccountIcon__6bc30[aria-label="PlayStation Network"]
-            + .connectedAccountNameContainer__48b99::before {
+          .connectedAccountIcon_e85011[aria-label="PlayStation Network"]
+            + .connectedAccountNameContainer__59a05::before {
             background-color: #0051ae53;
           }
         }

@@ -1,14 +1,14 @@
 :root {
-  .title_b7d661 {
+  .title_d4ba1a {
     background-color: var(--background-primary);
 
-    .children__32014::after { 
+    .children_cde9af::after { 
       background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),to(var(--background-primary)));
     }
   }
 
   // Removing help buttons
-  .toolbar__88c63 > [href="https://support.discord.com"]:last-child, .searchLearnMore_bf7b8e
+  .toolbar__62fb5 > [href="https://support.discord.com"]:last-child, .searchLearnMore__17e18
   {
     display: none;
   }
@@ -18,57 +18,57 @@
     order: 1;
     margin-left: 0;
 
-    .focused_ddee54 .searchBar_e0c60b,
-    .open_d3ab4e .searchBar_e0c60b {
+    .focused__037a4 .searchBar__5a20a,
+    .open_d3ab4e .searchBar__5a20a {
       width: 320px;
       border-radius: var(--border-radius);
     }
 
-    .search_ac353c:not(.open_d3ab4e) .searchBar_e0c60b {
+    .search_ac353c:not(.open_d3ab4e) .searchBar__5a20a {
       width: 27px;
       transition: 0.25s;
       background-color: transparent;
     }
 
-    .search_ac353c:not(.open_d3ab4e):hover .searchBar_e0c60b {
+    .search_ac353c:not(.open_d3ab4e):hover .searchBar__5a20a {
       width: 240px;
       background-color: var(--background-tertiary);
       border-radius: var(--border-radius);
     }
 
-    .search_ac353c:not(.open_d3ab4e) .iconContainer__8fa9c {
+    .search_ac353c:not(.open_d3ab4e) .iconContainer__9f124 {
       transform: scale(1.3);
       transition: 0.25s;
 
-      .icon_f50f05 {
+      .icon__5c8c7 {
         color: var(--interactive-normal) !important;
       }
     }
-    .search_ac353c:not(.open_d3ab4e):hover .iconContainer__8fa9c {
+    .search_ac353c:not(.open_d3ab4e):hover .iconContainer__9f124 {
       transform: scale(1);
     }
 
-    .searchFilter__118cb {
+    .searchFilter_dbda51 {
       background-color: var(--background-primary);
       border-radius: var(--border-radius) 0 0 var(--border-radius);
     }
-    .searchAnswer_b452e7 {
+    .searchAnswer__2ccaf {
       background-color: var(--background-primary);
       border-radius: 0 var(--border-radius) var(--border-radius) 0;
     }
   }
 
   // Search popout
-  .container_d6dad3 {
+  .container__84c26 {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2),
       0 0 0 1px rgba(56, 31, 31, 0.11);
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
 
-    .queryContainer_c359fe {
+    .queryContainer_c1cb2f {
       border-bottom: none;
     }
-    .focused_f9cf2c {
+    .focused__68b93 {
       background-color: var(--background-secondary-alt);
       border-bottom: none;
     }
@@ -84,7 +84,7 @@
     }
 
     // Options
-    .option_b5597b {
+    .option__91497 {
       border-radius: var(--border-radius);
 
       &:after {
@@ -109,7 +109,7 @@
   }
 
   // Calendar
-  .calendarPicker__5c474 {
+  .calendarPicker__47c85 {
     .react-datepicker {
       background-color: var(--background-secondary-alt);
     }
@@ -134,7 +134,7 @@
   }
 
   // Search result popout
-  .searchResultsWrap__9f374 {
+  .searchResultsWrap__2e184 {
     overflow: visible;
 
     // Added header
@@ -176,7 +176,7 @@
     }
 
     // Header
-    .searchHeader__19d87 {
+    .searchHeader__4d70e {
       display: grid;
       grid-template-columns: auto auto auto;
       grid-gap: 10px;
@@ -187,7 +187,7 @@
       }
 
       // Total results
-      .totalResults__695d3 {
+      .totalResults__8eee9 {
         grid-column: 1/4;
       }
 
@@ -199,15 +199,15 @@
     }
 
     // Scroller
-    .scroller_c8d5ad {
+    .scroller__5f036 {
       padding: 8px 0;
 
-      .searchResultGroup__35ba9 {
+      .searchResultGroup_ea38ca {
         padding: 0 2px 0 8px;
       }
 
       // Reply
-      .repliedMessage_e2bf4a {
+      .repliedMessage__636d2 {
         margin-left: 8px;
 
         &::before {
@@ -216,11 +216,11 @@
       }
 
       // Message
-      .wrapper__09ecc {
+      .wrapper_a62503 {
         padding: 0;
       }
 
-      .contents_f41bb2 {
+      .contents_d3ae0d {
         display: grid;
         grid-template-columns: 40px auto;
         grid-gap: 8px;
@@ -228,11 +228,11 @@
         margin: 5px 5px 5px 8px;
 
         // Username + timestamp
-        .header__39b23 {
+        .header__6a14d {
           display: flex;
           flex-direction: column;
 
-          .timestamp_cdbd93 {
+          .timestamp_c79dd2 {
             margin-left: 0;
           }
         }
@@ -244,30 +244,30 @@
         }
 
         // Content
-        .messageContent__21e69 {
+        .messageContent_abea64 {
           grid-column: 1/3;
           padding-left: 10px;
           margin: 0;
           padding: 0;
         }
       }
-      .embedWrapper_c143d9 {
+      .embedWrapper__47b23 {
         margin-left: 5px;
       }
 
       // Page control
-      .pageControl__2dd90 {
+      .pageControl__5e095 {
         width: 100%;
       }
     }
   }
 
-  .messagesPopoutWrap_b3b384 {
+  .messagesPopoutWrap__10dd1 {
     border-radius: var(--border-radius);
   }
 
-  .header__104ca,
-  .content__1a4fe::before {
+  .header__77c95,
+  .content__01e65::before {
     box-shadow: none;
   }
 }

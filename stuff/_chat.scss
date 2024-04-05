@@ -1,9 +1,9 @@
 :root {
   // Forums
-  .container_b181b6 {
+  .container_b92032 {
     background: var(--background-primary);
 
-    .mainCard__8a660 {
+    .mainCard__0ec2c {
       background-color: var(--background-secondary);
     }
   }
@@ -65,7 +65,7 @@
   }
 
   // Embed
-  .embedFull__8dc21 {
+  .embedFull__14919 {
     border: none;
     margin-left: 10px;
     border-radius: 5px var(--border-radius) var(--border-radius) 5px;
@@ -91,14 +91,14 @@
   }
 
   // Audio player
-  .wrapperAudio__555ce {
+  .wrapperAudio__178e9 {
     padding: 10px 0 0 0;
     border-radius: var(--border-radius);
   }
-  .audioMetadata_e546a8 {
+  .audioMetadata__84e00 {
     padding: 5px 10px;
   }
-  .audioControls__9fbe9 {
+  .audioControls_da7066 {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
   }
 
@@ -109,7 +109,7 @@
   }
 
   // Discord invite
-  .wrapper_efe67f {
+  .wrapper__8a5dd {
     border-radius: var(--border-radius);
   }
 
@@ -121,7 +121,7 @@
   }
 
   // Spotify embed
-  .embedSpotify_d58077 {
+  .embedSpotify__13fe9 {
     border-radius: var(--border-radius);
   }
 
@@ -130,19 +130,19 @@
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
   }
-  .tileHorizontal_f83028.tile_ebc93b:hover {
+  .tileHorizontal_ee4bae.tile_ebc93b:hover {
     background-color: var(--background-secondary-alt);
   }
-  .invalidPoop__03aa3 {
+  .invalidPoop__9bdd8 {
     background-color: rgba(0, 0, 0, 0.103);
   }
 
   // # @ / autocomplete menu
-  .autocomplete_df266d,
-  .option__32fd1 {
+  .autocomplete__743a5,
+  .option__2b069 {
     background-color: var(--background-secondary-alt);
   }
-  .categoryHeader_f97a5f,
+  .categoryHeader__70c8e,
   .selected-3H3-RC {
     background-color: var(--background-tertiary);
   }
@@ -155,54 +155,54 @@
   }
 
   // Emoji picker
-  .emojiItem_b15dee.emojiItemSelected__1a09a {
+  .emojiItem_de65fd.emojiItemSelected__023be {
     background-color: var(--background-modifier-selected);
   }
-  .searchBar__8f956 {
+  .searchBar__57f39 {
     border-radius: var(--border-radius);
   }
 
-  .imageLoading__37d01 {
+  .imageLoading_fb7de7 {
     background-image: none !important;
     background-color: var(--background-primary);
     border-radius: 8px;
   }
 
   // Reactions modal
-  .scroller__5fda0 {
+  .scroller__9a4f3 {
     background: var(--background-tertiary);
   }
-  .container_dc03c3,
-  .reactors__20ab0 {
+  .container_f8ef5d,
+  .reactors__0f305 {
     background: var(--background-secondary);
   }
-  .reactionSelected__249a7 {
+  .reactionSelected__16345 {
     background-color: #6e85d321;
   }
-  .reactorDefault__5b249 {
+  .reactorDefault__4b61e {
     box-shadow: inset 0 -1px 0 var(--background-primary);
   }
 
   // Deleting message modal
-  .message__04d9f {
+  .message_ff43e6 {
     background: var(--background-primary);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2),
       0 0 0 1px rgba(56, 31, 31, 0.11);
   }
 
   // Attachements
-  .textContainer__709ff,
-  .footer__06f4b {
+  .textContainer__65f57,
+  .footer__90194 {
     border: none;
   }
 
   // Emoji popout
-  .popoutContainer__7b9a3 {
+  .popoutContainer__66068 {
     border-radius: var(--border-radius);
   }
 
   // New message bar
-  .newMessagesBar__8b6d7 {
+  .newMessagesBar__8b272 {
     top: 5px;
     border-radius: var(--border-radius);
     background-color: var(--background-accent);
@@ -210,24 +210,24 @@
   }
 
   // Jump to present bar
-  .jumpToPresentBar__0ff7f {
+  .jumpToPresentBar__69174 {
     bottom: 12px;
     padding-bottom: 0;
     border-radius: var(--border-radius);
   }
 
   // News chat bar
-  .wrapper_fbbb73 {
+  .wrapper__57349 {
     border-radius: var(--border-radius);
   }
 
   // Reactions
-  .reaction-2A2y9y {
+  .reaction_ef7e09 {
     border-radius: var(--border-radius);
   }
 
   // Buttons on messages
-  .wrapper_c727b6 {
+  .wrapper__4e6b6 {
     border-radius: var(--border-radius);
   }
 
@@ -237,7 +237,7 @@
   }
 
   // Slow mode
-  .cooldownWrapper_de448f {
+  .cooldownWrapper__193b2 {
     color: var(--text-muted) !important;
   }
 }

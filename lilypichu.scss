@@ -13,8 +13,8 @@
 
 // Right popout
 @media (min-width: 1350px) {
-  .chatContent__5dca8 + :last-child,
-  .container_b2ce9c {
+  .chatContent_f087cb + :last-child,
+  .container_f79ab4 {
     position: fixed;
     top: 280px;
     bottom: 120px;
@@ -22,12 +22,12 @@
     width: 320px;
     height: unset;
   }
-  .tabBody_b3d268 {
+  .tabBody_a90ea8 {
     transform: none;
   }
 
   // Basic right popout when there's nothing
-  .container__037ed::after {
+  .container_d1f8f5::after {
     content: "Stay comfy";
     position: fixed;
     top: 220px;
@@ -45,7 +45,7 @@
     border-radius: var(--border-radius);
     overflow: hidden;
   }
-  .container__037ed::before {
+  .container_d1f8f5::before {
     content: "";
     position: fixed;
     top: 220px;
@@ -68,7 +68,7 @@
   }
 
   // User area
-  .panels__58331 > .container_ca50b9 {
+  .panels__58331 > .container_debb33 {
     position: fixed;
     display: flex;
     width: 305px;
@@ -79,19 +79,19 @@
     background-color: var(--background-primary);
     border-radius: var(--border-radius);
 
-    .avatarWrapper_ba5175 {
+    .avatarWrapper__500a6 {
       border-radius: var(--border-radius);
     }
   }
-  .container__037ed {
+  .container_d1f8f5 {
     overflow: visible;
   }
 
-  .membersWrap__90226 .members__9f47b {
+  .membersWrap__5ca6b .members__573eb {
     width: 100%;
     background-color: var(--background-primary);
 
-    .content__23cab {
+    .content__690c5 {
       min-height: 1000px;
       background-color: transparent;
     }
