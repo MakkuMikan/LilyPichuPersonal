@@ -2,13 +2,13 @@
   .title_a7d72e {
     background-color: var(--background-primary);
 
-    .children_e44302::after { 
+    .children_fc4f04::after { 
       background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),to(var(--background-primary)));
     }
   }
 
   // Removing help buttons
-  .toolbar_e44302 > [href="https://support.discord.com"]:last-child, .searchLearnMore_b0286e
+  .toolbar_fc4f04 > [href="https://support.discord.com"]:last-child, .searchLearnMore_b0286e
   {
     display: none;
   }
@@ -109,7 +109,7 @@
   }
 
   // Calendar
-  .calendarPicker__47c85 {
+  .calendarPicker_be05cd {
     .react-datepicker {
       background-color: var(--background-secondary-alt);
     }
@@ -207,7 +207,7 @@
       }
 
       // Reply
-      .repliedMessage_ec86aa {
+      .repliedMessage_f9f2ca {
         margin-left: 8px;
 
         &::before {
@@ -216,11 +216,11 @@
       }
 
       // Message
-      .wrapper_ec86aa {
+      .wrapper_f9f2ca {
         padding: 0;
       }
 
-      .contents_ec86aa {
+      .contents_f9f2ca {
         display: grid;
         grid-template-columns: 40px auto;
         grid-gap: 8px;
@@ -228,23 +228,23 @@
         margin: 5px 5px 5px 8px;
 
         // Username + timestamp
-        .header_ec86aa {
+        .header_f9f2ca {
           display: flex;
           flex-direction: column;
 
-          .timestamp_ec86aa {
+          .timestamp_f9f2ca {
             margin-left: 0;
           }
         }
 
         // Avatar
-        .avatar_ec86aa {
+        .avatar_f9f2ca {
           position: static;
           margin-top: 0;
         }
 
         // Content
-        .messageContent_ec86aa {
+        .messageContent_f9f2ca {
           grid-column: 1/3;
           padding-left: 10px;
           margin: 0;
