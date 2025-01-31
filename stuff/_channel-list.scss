@@ -1,16 +1,16 @@
 :root {
-  .content_a4d4d9 .sidebar_a4d4d9 {
+  .content_c48ade .sidebar_c48ade {
     border-radius: 0;
   }
 
   // Channels
-  .wrapper_d8bfb3,
+  .wrapper__2ea32,
   .container-32HW5s {
     border-radius: var(--border-radius);
   }
 
   // Voice call
-  .content_d80634 {
+  .content__07f91 {
     border-radius: var(--border-radius);
   }
 
@@ -22,7 +22,7 @@
     background-color: var(--background-secondary);
   }
 
-  .container_ee69e0 > .scroller_c43953 > .content_eed6a8 > div:first-child[style="height: 16px;"] {
+  .container__2637a > .scroller__629e4 > .content__99f8c > div:first-child[style="height: 16px;"] {
     display: none;
   }
 }
