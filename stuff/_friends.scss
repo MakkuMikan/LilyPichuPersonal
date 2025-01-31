@@ -1,6 +1,6 @@
 :root {
   // Right friend list
-  .privateChannels__9b518 {
+  .privateChannels__35e86 {
     .interactive-1vLZ_I {
       border-radius: var(--border-radius);
     }
@@ -8,7 +8,7 @@
 
   // Friends activity
   @media (min-width: 1350px) {
-    .nowPlayingColumn_b025fe {
+    .nowPlayingColumn__133bf {
       position: fixed;
       top: 280px;
       bottom: 120px;
@@ -56,7 +56,7 @@
       }
     }
     
-    .profilePanel_e2cafe {
+    .profilePanel_b433b4 {
       position: fixed;
       top: 220px;
       right: 60px;
@@ -66,7 +66,7 @@
       overflow: hidden;
     }
 
-    .membersWrap__5ca6b {
+    .membersWrap_c8ffbb {
       position: fixed;
       top: 280px;
       bottom: 120px;
@@ -78,21 +78,21 @@
   }
 
   // Friend list
-  .container_bd15da {
+  .container__133bf {
     background-color: var(--background-primary);
 
-    .searchBar__310d8 {
+    .searchBar__5ec2f {
       background-color: var(--background-secondary);
     }
 
-    .children_cde9af:after {
+    .children__9293f:after {
       content: none;
     }
-    .container__26baa {
+    .container__9293f {
       background: unset;
     }
 
-    .peopleListItem_dab480 {
+    .peopleListItem_cc6179 {
       border-radius: var(--border-radius);
       border-top: none;
       background: var(--background-modifier-hover);
@@ -100,7 +100,7 @@
       padding: 16px 10px;
 
       &:hover {
-        .actionButton__2b4bb {
+        .actionButton_f8fa06 {
           background-color: var(--background-secondary-alt);
         }
       }
@@ -108,53 +108,53 @@
   }
 
   // Friend call
-  .nowPlayingColumn_b025fe .scroller__7c25e {
+  .nowPlayingColumn__133bf .scroller__7d20c {
     border: none;
   }
-  .controlButton__863c7 foreignObject {
+  .controlButton__1405b foreignObject {
     mask: none;
   }
-  .colorable__4f530.primaryDark_ec74a7 {
+  .colorable_f1ceac.primaryDark_f1ceac {
     background-color: var(--background-primary);
   }
-  .wrapper__6bf2d {
+  .wrapper_cb9592 {
     background-color: var(--background-tertiary);
   }
 
   // Friend activity
-  .inset__61d5b {
+  .inset_bf1984 {
     background-color: var(--background-primary);
   }
-  .separator_fc3370 {
+  .separator__00943 {
     display: none;
   }
-  .voiceSectionIconWrapper_b3ec85 {
+  .voiceSectionIconWrapper__00943 {
     background-color: var(--background-tertiary);
   }
-  .outer_a41cf3.active__76f42,
-  .outer_a41cf3.interactive__46c44:hover {
+  .outer_bf1984.active_bf1984,
+  .outer_bf1984.interactive_bf1984:hover {
     background-color: var(--activity-card-background);
   }
-  .itemCard_b64118 {
+  .itemCard__7e549 {
     border: none;
     border-radius: var(--border-radius);
 
-    .body__616e6 {
+    .body__00943 {
       border-radius: calc(var(--border-radius) - 10px);
     }
   }
 
   // Regionnal selector friend call
-  .quickSelectPopout__56a98.regionSelectPopout_a270cb {
+  .quickSelectPopout_ebaca5.regionSelectPopout__5621e {
     background-color: var(--background-secondary-alt);
   }
 
-  .profilePanelConnections__34438 {
+  .profilePanelConnections_b433b4 {
     background-color: transparent;
   }
 
   // User profile
-  .userPanelInner__3184c {
+  .userPanelInner_c69a7b {
     position: relative;
     max-height: unset !important;
     overflow: hidden;
@@ -167,7 +167,7 @@
     }
 
     // Banner
-    .bannerSVGWrapper__8a38c {
+    .bannerSVGWrapper_b32cc2 {
       position: absolute;
       -webkit-mask-image: linear-gradient(to bottom, #000000, #00000000);
       mask-image: linear-gradient(to bottom, #000000, #00000000);
@@ -181,7 +181,7 @@
         mask: none;
       }
 
-      .banner__6d414 {
+      .banner__68edb {
         height: 100%;
 
         &::before {
@@ -196,7 +196,7 @@
       &[viewBox="0 0 340 120"] {
         transform: translateX(-200px);
 
-        .banner__6d414 > * {
+        .banner__68edb > * {
           display: none;
         }
       }
@@ -207,7 +207,7 @@
     }
 
     // Badges
-    .badgeList__76720 {
+    .badgeList_ab525a {
       position: absolute;
       top: 65px;
       left: 110px;
@@ -216,7 +216,7 @@
     }
 
     // Avatar
-    .avatarWrapperNormal__36eec {
+    .avatarWrapperNormal_f89da9 {
       position: relative;
       width: 80px;
       top: 16px;
@@ -227,7 +227,7 @@
         border-radius: var(--border-radius);
       }
 
-      .avatarHint__15059 {
+      .avatarHint_f89da9 {
         border-radius: var(--border-radius);
       }
 
@@ -241,9 +241,9 @@
       background-color: #00000011;
       backdrop-filter: blur(20px);
 
-      .section__62b44 {
-        & > .copiableNameTag_e76019 > .clickTarget__440f0,
-        & > div > .userText_c26b46 {
+      .section_d7a21f {
+        & > .copiableNameTag_c9ccf6 > .clickTarget__440f0,
+        & > div > .userText_c9ccf6 {
           position: absolute;
           top: -110px;
           left: 100px;
@@ -260,31 +260,31 @@
             white-space: unset;
           }
 
-          .discrimBase__5555e {
+          .discrimBase_c9ccf6 {
             color: white;
           }
         }
 
-        .pronouns__8aa38 {
+        .pronouns_c9ccf6 {
           padding-top: 12px;
         }
       }
 
-      .section__62b44 {
+      .section_d7a21f {
         padding-top: 0;
         padding-bottom: 12px;
       }
 
-      .divider_d6f39c {
+      .divider_ae36e5 {
         display: none;
       }
     }
 
-    .profilePanelConnections__34438 > :nth-child(2) {
+    .profilePanelConnections_b433b4 > :nth-child(2) {
       margin-top: 10px;
     }
 
-    .mutualGuildsList__5e9f3, .mutualFriendsList__02caf {
+    .mutualGuildsList_b433b4, .mutualFriendsList_b433b4 {
       border-top: none;
 
       & > button {

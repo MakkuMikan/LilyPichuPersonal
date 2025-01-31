@@ -1,9 +1,9 @@
 :root {
   // Forums
-  .container_b92032 {
+  .container_f369db {
     background: var(--background-primary);
 
-    .mainCard__0ec2c {
+    .mainCard_f369db {
       background-color: var(--background-secondary);
     }
   }
@@ -65,7 +65,7 @@
   }
 
   // Embed
-  .embedFull__14919 {
+  .embedFull__623de {
     border: none;
     margin-left: 10px;
     border-radius: 5px var(--border-radius) var(--border-radius) 5px;
@@ -91,14 +91,14 @@
   }
 
   // Audio player
-  .wrapperAudio__178e9 {
+  .wrapperAudio_f316dd {
     padding: 10px 0 0 0;
     border-radius: var(--border-radius);
   }
-  .audioMetadata__84e00 {
+  .audioMetadata_f316dd {
     padding: 5px 10px;
   }
-  .audioControls_da7066 {
+  .audioControls_f316dd {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
   }
 
@@ -109,40 +109,40 @@
   }
 
   // Discord invite
-  .wrapper__8a5dd {
+  .wrapper_d5f3cd {
     border-radius: var(--border-radius);
   }
 
   // Spotify session
-  .invite__2a93b {
+  .invite__4d3fa {
     background-color: var(--background-secondary);
     border: none;
     border-radius: var(--border-radius);
   }
 
   // Spotify embed
-  .embedSpotify__13fe9 {
+  .embedSpotify__623de {
     border-radius: var(--border-radius);
   }
 
   // Discord Gift
-  .tile_ebc93b {
+  .tile__72090 {
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
   }
-  .tileHorizontal_ee4bae.tile_ebc93b:hover {
+  .tileHorizontal__72090.tile__72090:hover {
     background-color: var(--background-secondary-alt);
   }
-  .invalidPoop__9bdd8 {
+  .invalidPoop__857bf {
     background-color: rgba(0, 0, 0, 0.103);
   }
 
   // # @ / autocomplete menu
-  .autocomplete__743a5,
-  .option__2b069 {
+  .autocomplete__13533,
+  .option_a19535 {
     background-color: var(--background-secondary-alt);
   }
-  .categoryHeader__70c8e,
+  .categoryHeader_d1405b,
   .selected-3H3-RC {
     background-color: var(--background-tertiary);
   }
@@ -155,54 +155,54 @@
   }
 
   // Emoji picker
-  .emojiItem_de65fd.emojiItemSelected__023be {
+  .emojiItem_fc7141.emojiItemSelected_fc7141 {
     background-color: var(--background-modifier-selected);
   }
-  .searchBar__57f39 {
+  .searchBar_c0e32c {
     border-radius: var(--border-radius);
   }
 
-  .imageLoading_fb7de7 {
+  .imageLoading__1859b {
     background-image: none !important;
     background-color: var(--background-primary);
     border-radius: 8px;
   }
 
   // Reactions modal
-  .scroller__9a4f3 {
+  .scroller_cc2dff {
     background: var(--background-tertiary);
   }
-  .container_f8ef5d,
-  .reactors__0f305 {
+  .container_cc2dff,
+  .reactors_cc2dff {
     background: var(--background-secondary);
   }
-  .reactionSelected__16345 {
+  .reactionSelected_cc2dff {
     background-color: #6e85d321;
   }
-  .reactorDefault__4b61e {
+  .reactorDefault_cc2dff {
     box-shadow: inset 0 -1px 0 var(--background-primary);
   }
 
   // Deleting message modal
-  .message_ff43e6 {
+  .message__89466 {
     background: var(--background-primary);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2),
       0 0 0 1px rgba(56, 31, 31, 0.11);
   }
 
   // Attachements
-  .textContainer__65f57,
-  .footer__90194 {
+  .textContainer__4d95d,
+  .footer__4d95d {
     border: none;
   }
 
   // Emoji popout
-  .popoutContainer__66068 {
+  .popoutContainer__0f481 {
     border-radius: var(--border-radius);
   }
 
   // New message bar
-  .newMessagesBar__8b272 {
+  .newMessagesBar__0f481 {
     top: 5px;
     border-radius: var(--border-radius);
     background-color: var(--background-accent);
@@ -210,24 +210,24 @@
   }
 
   // Jump to present bar
-  .jumpToPresentBar__69174 {
+  .jumpToPresentBar__0f481 {
     bottom: 12px;
     padding-bottom: 0;
     border-radius: var(--border-radius);
   }
 
   // News chat bar
-  .wrapper__57349 {
+  .wrapper__44df5 {
     border-radius: var(--border-radius);
   }
 
   // Reactions
-  .reaction_ef7e09 {
+  .reaction_f8896c {
     border-radius: var(--border-radius);
   }
 
   // Buttons on messages
-  .wrapper__4e6b6 {
+  .wrapper_f7ecac {
     border-radius: var(--border-radius);
   }
 
@@ -237,7 +237,7 @@
   }
 
   // Slow mode
-  .cooldownWrapper__193b2 {
+  .cooldownWrapper_b21699 {
     color: var(--text-muted) !important;
   }
 }

@@ -13,8 +13,8 @@
 
 // Right popout
 @media (min-width: 1350px) {
-  .chatContent_f087cb + :last-child,
-  .container_f79ab4 {
+  .chatContent_f75fb0 + :last-child,
+  .container_c8ffbb {
     position: fixed;
     top: 280px;
     bottom: 120px;
@@ -22,12 +22,12 @@
     width: 320px;
     height: unset;
   }
-  .tabBody_a90ea8 {
+  .tabBody__133bf {
     transform: none;
   }
 
   // Basic right popout when there's nothing
-  .container_d1f8f5::after {
+  .container_c48ade::after {
     content: "Stay comfy";
     position: fixed;
     top: 220px;
@@ -45,7 +45,7 @@
     border-radius: var(--border-radius);
     overflow: hidden;
   }
-  .container_d1f8f5::before {
+  .container_c48ade::before {
     content: "";
     position: fixed;
     top: 220px;
@@ -58,17 +58,17 @@
   }
 
   // Adding space for right popout
-  .guilds__2b93a + :nth-child(2) {
+  .guilds_c48ade + :nth-child(2) {
     margin-right: 450px;
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
   }
   
-  .layers_a23c37 > :nth-child(2) {
+  .layers__160d8 > :nth-child(2) {
     margin-right: 450px;
   }
 
   // User area
-  .panels__58331 > .container_debb33 {
+  .panels_c48ade > .container__37e49 {
     position: fixed;
     display: flex;
     width: 305px;
@@ -79,23 +79,23 @@
     background-color: var(--background-primary);
     border-radius: var(--border-radius);
 
-    .avatarWrapper__500a6 {
+    .avatarWrapper__37e49 {
       border-radius: var(--border-radius);
     }
   }
-  .container_d1f8f5 {
+  .container_c48ade {
     overflow: visible;
   }
 
-  .membersWrap__5ca6b .members__573eb {
+  .membersWrap_c8ffbb .members_c8ffbb {
     width: 100%;
     background-color: var(--background-primary);
 
-    .content__690c5 {
+    .content__99f8c {
       min-height: 1000px;
       background-color: transparent;
     }
-    .member_aa4760 {
+    .member__5d473 {
       max-width: 300px;
       border-radius: var(--border-radius);
       background-color: var(--background-primary);
